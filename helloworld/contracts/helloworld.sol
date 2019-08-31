@@ -1,9 +1,10 @@
-pragma solidity ^0.4.4;
+pragma solidity^0.5.8;
 
 contract HelloWorld
 {
-    function SayHello() returns (string)
-    {
-        return ("Hello World! ");
+    
+    function isActivated() public view returns(bool activated ){
+        activated = true;
     }
 }
+
